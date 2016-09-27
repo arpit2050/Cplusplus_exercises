@@ -1,0 +1,18 @@
+// Exercise 1.16
+
+#include <iostream>
+int main()
+{
+    int v=0,sum=0,count=0;
+std::cout<<"Enter total number count";
+std::cin>>count;
+for(int i=0;i<count;i++)
+{
+    std::cout<<"Enter number "<<i+1<<std::endl;
+    std::cin>>v;
+    std::cout<<std::endl;
+    sum=sum+v;
+}
+std::cout<<"Sum is:"<<sum;
+return 0;
+}
