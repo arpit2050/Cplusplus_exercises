@@ -1,0 +1,28 @@
+// Exercise 1.13
+
+// program 1 using for loop same as Exercise 1.9
+
+#include <iostream>
+int main()
+{
+    int sum=0;
+  for(int i=50;i<=100;i++)
+  {
+      sum=sum+i;
+  }
+  std::cout<<sum;
+return 0;
+}
+
+// program 2 using for loop  same as exercise 1.10
+
+#include <iostream>
+int main()
+{
+    
+  for(int i=10;i>=0;i--)
+  {
+      std::cout<<i<<std::endl;
+  }
+ return 0; 
+}
