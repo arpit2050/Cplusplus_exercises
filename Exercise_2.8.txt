@@ -1,0 +1,14 @@
+// Exercise 2.8
+#include <iostream>
+#include <string>
+
+int main()
+{
+
+// Use of escape sequences newline
+std::cout<<"2M\n";
+
+// Modification of escape sequencse with tab and then using newline
+std::cout<<"2\tM\n";
+return 0;
+}
