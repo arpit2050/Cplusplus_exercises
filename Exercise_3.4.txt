@@ -1,0 +1,61 @@
+//Exercise 3.4 to check words are equal or not and report which one has greater length
+
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+string word1,word2;
+cout<<"Enter first word"<<endl;
+cin>>word1;
+cout<<"Enter second word"<<endl;
+cin>>word2;
+if(word1==word2)
+{
+}
+else
+{
+    if(word1.size()>word2.size())
+    {
+        cout<<word1<<" is greater in size than "<<word2;
+    }
+    else
+    {
+        cout<<word2<<" is greater in size than "<<word1;
+    }
+}
+return 0;
+}
+
+// exercise 3.4  this time program checks whether length are same or not 
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+string word1,word2;
+cout<<"Enter first word"<<endl;
+cin>>word1;
+cout<<"Enter second word"<<endl;
+cin>>word2;
+if(word1.size()!=word2.size())
+{
+     if(word1.size()>word2.size())
+    {
+        cout<<word1<<" is greater in size than "<<word2;
+    }
+    else
+    {
+        cout<<word2<<" is greater in size than "<<word1;
+    }
+}
+else
+{
+   cout<<"Both have equal length"<<endl;
+}
+return 0;
+}
